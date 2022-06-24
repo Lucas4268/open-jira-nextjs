@@ -1,7 +1,7 @@
 import { useRouter } from 'next/router';
 import { useSnackbar } from 'notistack';
 import { FC, useEffect, useReducer } from 'react';
-import { entriesApi } from '../../apis';
+import { entriesApi } from '../../services';
 import { Entry } from '../../interfaces';
 import { EntriesContext, entriesReducer } from './';
 
